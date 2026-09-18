@@ -1,0 +1,20 @@
+{
+  "name": "my-marketplace",
+  "interface": {
+    "displayName": "Dx20 Codex Plugins"
+  },
+  "plugins": [
+    {
+      "name": "local-plugin",
+      "source": {
+        "source": "local",
+        "path": "./plugins/local-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
